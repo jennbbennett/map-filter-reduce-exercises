@@ -1,10 +1,16 @@
 function sum (array) {
-  // your code here
-};
+  return array.reduce(function(previous, current){
+    return previous + current;
+  });
+}
 
 function productAll (array) {
-  // your code here
-};
+  return array.reduce(function(previous, current){
+    for(var i = 0; i < current.length; i ++){
+      return 
+    }
+  });
+}
 
 function objectify (array) {
   // your code here
